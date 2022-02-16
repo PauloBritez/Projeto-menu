@@ -34,9 +34,9 @@
 
 //let res = lista.concat(lista2); // concatena dois arrays
 
-let lista = ['23','13','90','2'];
+/*let lista = ['23','13','90','2'];
 
-let lista2 = [];
+let lista2 = [];*/
 
 /*
 for (let i in lista) {
@@ -81,10 +81,35 @@ lista2 = lista.every(function(item){
     return (item > 10)? true : false;
 }); // retorna true se todos os elementos do array sao maiores que 10 */
 
-lista2 = lista.some(function(item){
+/*lista2 = lista.some(function(item){
     return (item > 10)? true : false;
 });
 
-let res = lista2;
+let res = lista2; // retorna o array com os elementos multiplicados por 3 */
 
-console.log(res);
+/*
+let lista = ['23','13','90','2'];
+let lista2 = [];
+
+lista2 = lista.find(function(item){
+    return (item == 13) ? true : false;
+}); */ // retorna o primeiro elemento que satisfaz a condicao
+
+/*lista2 = lista.findIndex(function(item){
+    return (item == 13) ? true : false;
+}); // retorna o indice do primeiro elemento que satisfaz a condicao */
+
+/*
+let lista = [
+    {id:1, nome:'Joao', idade:20, sexo:'M'},
+    {id:2, nome:'Maria', idade:25, sexo:'F'},
+    {id:3, nome:'Pedro', idade:30, sexo:'M'},
+];
+
+let pessoa = lista.find(function(item){
+    return (item.sexo == 'M') ? true : false;
+}); // retorna o primeiro elemento que satisfaz a condicao  (objeto)
+
+let res = pessoa;
+
+console.log(res); */
