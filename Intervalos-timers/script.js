@@ -1,4 +1,4 @@
-let timer; //Variable global
+/*let timer; //Variable global
 
 function comecar() { //Función comenzar
     timer = setInterval(showTime, 1000); //Llamamos a la función showTime cada segundo
@@ -17,5 +17,14 @@ function showTime(){ //Función mostrar hora
     let txt = h +':' + m + ':' + s; //Creamos una cadena de texto con la hora
 
     document.querySelector('.demo').innerHTML = txt; //Mostramos la hora en el elemento con id reloj 
-} 
+} */
+function rodar() { //Función comenzar
+   timer = setTimeout(function(){ //Llamamos a la función setTimeout
+        document.querySelector('.demo').innerHTML = 'rodando'; //Mostramos la hora en el elemento con id reloj
+    }, 3000); //Llamamos a la función setTimeout
+}
+
+function parar() { //Función parar
+    clearTimeout(timer); //Llamamos a la función clearInterval para detener el intervalo
+}
 
