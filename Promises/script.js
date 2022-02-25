@@ -39,16 +39,3 @@ console.log(temp);*/
 }).catch(function(erro){
     console.log(erro);
 }); */
-
-
-
-
-
-
-
-
-
-
-
-
-
